@@ -12,9 +12,9 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Infrastructure As Code: Ansible & Terraform"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "infrastructure-as-code-ansible-and-terraform"
   type = "Lesson"
 }
 

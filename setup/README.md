@@ -1,29 +1,12 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Infrastructure As Code: Ansible & Terraform</span>
   <span class="subhead">Setup</span>
 </h1>
 
 ## Setup
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
+For this lesson, you will install both **Ansible** and **Terraform** as part of the main activities. There's no need to install anything ahead of time!
 
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
+Before the lesson begins, simply ensure that your **GA Workspace and any pre-provisioned sandboxes** are accessible and ready for use.
 
-```bash
-cd ~/code/ga/lectures
-```
-
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
-
-```bash
-mkdir tktk-module-name
-cd tktk-module-name
-```
-
-Open the contents of the directory in VS Code:
-
-```bash
-code .
-```
-
-tktk Are there more lecture setup steps? Don't forget to add them here.
+If you're unsure how to check for these resources, your instructor will guide you through the process. They can help you verify everything is set up properly so you're ready to begin the lesson.
