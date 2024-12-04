@@ -74,13 +74,14 @@ We can integrate helpful tools in our development environment by adding the Red 
    ext install redhat.ansible
    ```
 
+3. Alternatively, go to the **Extensions** tab in VS Code, search for “Ansible” by **Red Hat**, and click **Install**.
+
    <br>
 
     <img src="./assets/install-extension.png" alt="Installing VS Code Extension" style="width:600px;"/>
 
     <br>
 
-3. Alternatively, go to the **Extensions** tab in VS Code, search for “Ansible” by **Red Hat**, and click **Install**.
 4. Make sure you **restart VS Code** after installation for these packages to load properly.
 
 ## 3. Creating an Ansible `playbook`

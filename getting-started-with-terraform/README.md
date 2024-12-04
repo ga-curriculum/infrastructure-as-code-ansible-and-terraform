@@ -114,21 +114,21 @@ cd terraform-demo-01
 
 ### 2. Create the Terraform File
 
-Create and open a new file called `lab.tf` using VS Code:
+Create and open a new file called `main.tf` using VS Code:
 
 ```bash
-code lab.tf
+code main.tf
 ```
 
 ### Creating the Manifest
 
-In Terraform, a **manifest** is a file that contains configuration code specifying the desired infrastructure. To begin, you'll define two key blocks in the `lab.tf` file:
+In Terraform, a **manifest** is a file that contains configuration code specifying the desired infrastructure. To begin, you'll define two key blocks in the `main.tf` file:
 
 - A `terraform` block to specify the Terraform version and the required provider (in this case, AWS).
 
 - A `provider` block to configure the provider settings, such as the AWS region where your infrastructure will be deployed.
 
-Copy and paste the following information inside `lab.tf` file:
+Copy and paste the following information inside `main.tf` file:
 
 ```hcl
 terraform {
@@ -153,7 +153,7 @@ Save this file and exit `VS Code`.
 
 ## Initializing Terraform
 
-Back in your terminal make sure you are still in the same directory as your `lab.tf` file and run the following command:
+Back in your terminal make sure you are still in the same directory as your `main.tf` file and run the following command:
 
 ```bash
 terraform init
@@ -193,7 +193,7 @@ Once you've initialized your Terraform directory, you can start to add **resourc
 
 ### 1. Add resource blocks
 
-Open your `lab.tf` and copy and paste the following resource blocks at the end of the manifest file:
+Open your `main.tf` and copy and paste the following resource blocks at the end of the manifest file:
 
 ```hcl
 resource "aws_dynamodb_table" "accounts" {

@@ -38,7 +38,7 @@ Installing software or configuring _one_ server is manageable. Doing it for _tho
 
 ## Infrastructure-as-Code (IaC)
 
-### Automating Infrastructure Creation
+### Automating infrastructure creation
 
 When cloud computing introduced dynamic, scalable resources, a new problem emerged: how do you consistently create and manage these resources at scale? IaC tools like Terraform stepped in to solve this problem.
 
