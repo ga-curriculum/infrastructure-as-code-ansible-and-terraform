@@ -102,7 +102,7 @@ and completing the process again.
 
 ## Creating the Terraform manifest
 
-Now, let's create a Terraform manifest to deploy a DynamoDB instance as a demo. This will give you hands-on experience creating infrastructure with Terraform.
+Now, let's create a Terraform manifest to deploy an AWS DynamoDB instance as a demo. This will give you hands-on experience creating infrastructure with Terraform.
 
 ### 1. Navigate to the `Desktop` on your workstation and create a new directory.
 
