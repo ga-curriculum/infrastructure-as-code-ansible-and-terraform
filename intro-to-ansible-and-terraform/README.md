@@ -3,9 +3,9 @@
   <span class="subhead">Intro to Ansible and Terraform</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, learners will be able to describe the purpose and use cases of Ansible and Terraform, understand the difference between configuration management and infrastructure-as-code (IaC), and explain how these tools complement each other in cloud environments.
+**Learning objective:** By the end of this lesson, learners will be able to describe the purpose of Ansible and Terraform, understand the difference between configuration management and infrastructure-as-code (IaC), and explain how these tools complement each other in cloud environments.
 
-## Setting the Stage
+## Setting the stage
 
 ### The evolution of automation in IT
 
@@ -19,17 +19,17 @@ Later, as cloud computing became prevalent, the focus shifted to automating the 
 
 ## Configuration Management (CM)
 
-### Automating System States
+### Automating system states
 
 Configuration management focuses on ensuring that servers and devices reach and maintain a **desired state**. For example, it can automate tasks like installing software or configuring a web server.
 
-### Key Features of CM Tools
+### Key features of CM tools
 
 | **Feature**                   | **Description**                                                                                                                                                       |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Origins**                   | CM tools predate cloud environments and were widely used in traditional data centers.                                                                                 |
 | **Focus**                     | Primarily used to bring individual systems to a specific, desired state.                                                                                              |
-| **Examples of Tools**         | [Ansible](https://www.ansible.com/), [Puppet](https://www.puppet.com/), [Chef](https://www.chef.io/products/chef-infra), [Salt](https://saltproject.io/), and others. |
+| **Examples of Tools**         | [Ansible](https://www.ansible.com/), [Puppet](https://www.puppet.com/), [Chef](https://www.chef.io/products/chef-infra), [Salt](https://saltproject.io/) |
 | **Agent-Based vs. Agentless** | - **Agent-Based**: Tools like Puppet and Chef use agents installed on servers.<br>- **Agentless**: Tools like Ansible interact directly with servers over SSH.        |
 
 ### Why does configuration management matter?
@@ -54,9 +54,15 @@ When cloud computing introduced dynamic, scalable resources, a new problem emerg
 
 IaC allows you to automate tasks like provisioning servers, networks, and storage in a consistent, repeatable way. This improves reliability and saves time, especially in cloud environments.
 
-## Ansible
+## Introducing Ansible
 
-### Automating Configuration
+<br>
+
+<img src="./assets/ansible-logo.png" alt="Ansible Logo" style="width:400px;"/>
+
+<br>
+
+### Automating configuration
 
 [**Ansible**](https://www.ansible.com/) is a lightweight, agentless CM tool used to configure systems and automate tasks on servers.
 
@@ -70,9 +76,15 @@ IaC allows you to automate tasks like provisioning servers, networks, and storag
 
 After provisioning a SQL database with Terraform, you can use Ansible to define and automate the creation of tables and columns. This ensures consistency and reduces the risk of manual errors.
 
-## Terraform
+## Introducing Terraform
 
-### Automating Infrastructure Creation
+<br>
+
+<img src="./assets/terraform-logo.png" alt="Terraform Logo" style="width:400px;"/>
+
+<br>
+
+### Automating infrastructure creation
 
 [**Terraform**](https://www.terraform.io/) is an open-source IaC tool that allows you to define and provision cloud infrastructure through code.
 
@@ -87,16 +99,17 @@ After provisioning a SQL database with Terraform, you can use Ansible to define 
 
 You can use Terraform to provision an entire cloud environment, including servers, databases, and networks, in a single, repeatable process.
 
-## How Ansible and Terraform Work Together
+## How Ansible and Terraform work together
 
 While both Ansible and Terraform automate tasks, they serve different purposes:
 
 - **Terraform**: Focuses on creating and managing infrastructure (ex: provisioning servers, networks, and storage).
+
 - **Ansible**: Focuses on configuring and managing the systems and applications running on that infrastructure.
 
 Together, these tools streamline the process of building, configuring, and managing scalable cloud environments.
 
-## Advantages and Disadvantages
+## Advantages and disadvantages
 
 | **Tool**            | **Advantages**                                                                                                        | **Disadvantages**                                                                                                     |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |

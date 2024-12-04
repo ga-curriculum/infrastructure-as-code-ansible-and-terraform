@@ -5,7 +5,7 @@
 
 ## Setup
 
-For this lesson, you will install both **Ansible** and **Terraform** as part of the main activities. There's no need to install anything ahead of time!
+For this lesson, you will install both **Ansible** and **Terraform** as part of the main lesson code along. There's no need to install anything ahead of time!
 
 Before the lesson begins, simply ensure that your **GA Workspace and any pre-provisioned sandboxes** are accessible and ready for use.
 

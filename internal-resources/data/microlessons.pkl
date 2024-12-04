@@ -9,23 +9,25 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+introToAnsibleAndTerraform = new Template.Microlesson {
+  friendlyName = "Intro to Ansible and Terraform"
+  dirName = "intro-to-ansible-and-terraform"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+automatingInstallationsWithAnsiblePlaybooks = new Template.Microlesson {
+  friendlyName = "Automating Installations with Ansible Playbooks"
+  dirName = "automating-installations-with-ansible-playbooks"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+gettingStartedWithTerraform = new Template.Microlesson {
+  friendlyName = "Getting Started with Terraform"
+  dirName = "getting-started-with-terraform"
   type = "Content"
   videoUrl = ""
 }
+
+
