@@ -130,7 +130,7 @@ In Terraform, a **manifest** is a file that contains configuration code specifyi
 
 Copy and paste the following information inside `main.tf` file:
 
-```hcl
+```plaintext
 terraform {
   required_providers {
     aws = {
@@ -195,7 +195,7 @@ Once you've initialized your Terraform directory, you can start to add **resourc
 
 Open your `main.tf` and copy and paste the following resource blocks at the end of the manifest file:
 
-```hcl
+```plaintext
 resource "aws_dynamodb_table" "accounts" {
   name         = "Accounts"
   billing_mode = "PAY_PER_REQUEST"
