@@ -30,8 +30,8 @@ This module introduces students to key tools for automating infrastructure manag
 
 ### Course landing pages
 
-- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infrastructure-as-code-ansible-and-terraform/canvas-landing-pages/mea.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infrastructure-as-code-ansible-and-terraform/canvas-landing-pages/fallback.html)
+- [MEA - Modern Engineering](https://ga-curriculum.github.io/infrastructure-as-code-ansible-and-terraform/canvas-landing-pages/mea.html)
+- [Fallback](https://ga-curriculum.github.io/infrastructure-as-code-ansible-and-terraform/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -43,4 +43,4 @@ This module introduces students to key tools for automating infrastructure manag
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
